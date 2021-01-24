@@ -21,5 +21,10 @@
  * with clear and descriptive names.
  */
 
+ var a = 4675
+ var b = 6783
+ var c = 3405
+ var luckyNumber = 7
+
 let result = 0
 console.log("Label", result)
