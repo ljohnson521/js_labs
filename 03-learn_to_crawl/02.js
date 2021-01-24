@@ -2,9 +2,8 @@
 // Make the sum at the end add the apples and oranges.
 
 const tao = "unchanging"
-let tao = "i've changed"
 
 let apples = 5
 let oranges = 12
 
-let fruit = apples + lemons
+let fruit = apples + oranges
