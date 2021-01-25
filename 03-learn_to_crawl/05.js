@@ -24,4 +24,17 @@
  * in which interpolation won't work, seeing as it's a relatively new method and
  * support for it is not everywhere.
  */
+let name = "Lamart";
+let greetings = "Hello, how are you";
+let buddy = "Derrick";
+let sister = "Shiloh";
+let todaysDate = "the 24th";
+let thisMonth = "January";
+let thisYear = "2021";
+let myAge = "42"
 
+console.log(greetings, buddy);
+console.log(greetings, sister);
+console.log(greetings, buddy, "on " + todaysDate, "of " + thisMonth);
+console.log("In 20 years, I will be " + myAge, "years old");
+console.log(`In 20 years, I will be ${myAge}, years old`);

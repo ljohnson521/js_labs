@@ -21,10 +21,28 @@
  * with clear and descriptive names.
  */
 
- var a = 4675
- var b = 6783
- var c = 3405
- var luckyNumber = 7
+ let a = 4675
+ let b = 6783
+ let c = 3405
+ let luckyNumber = 7
 
-let result = 0
-console.log("Label", result)
+ sum = a + b + c + luckyNumber;
+ 
+ subSmallest = (luckyNumber - c) - b;
+ 
+ newMulti = a * b * c * luckyNumber;
+ 
+ diffBetweenNumbers = a - c - luckyNumber;
+ divByLargest = b / diffBetweenNumbers;
+ 
+ let numModulo1 = (a % luckyNumber);
+ let numModulo2 = (b % luckyNumber);
+ let numModulo3 = (c % luckyNumber);
+
+console.log(sum);
+console.log(subSmallest);
+console.log(newMulti);
+console.log(divByLargest);
+console.log(numModulo1);
+console.log(numModulo2);
+console.log(numModulo3);

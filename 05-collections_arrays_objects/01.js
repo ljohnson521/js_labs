@@ -17,3 +17,8 @@
  *    function that takes an array as an argument and returns the sum. Use this
  *    function to log the sum of the two arrays of odd and even numbers.
  */
+
+ let myStuff = ["chair", "desk", "lamp"]
+ let myShelf = [
+     ["tools", "glasses", "coffee machine"], ["keys", "key grinder", "water bottle"]
+ ]
