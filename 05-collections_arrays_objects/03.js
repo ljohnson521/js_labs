@@ -70,3 +70,37 @@ stores =  [
     [ '4003IN', 'Target', 'IN', 'North', 'Attica' ],
     [ '4003KY', 'Target', 'KY', 'North', 'Ashland' ]
 ]
+
+// // This loop is for outer array
+// for (var i = 0, l1 = stores.length; i < l1; i++) {
+
+//     // This loop is for inner-arrays
+//     for (var j = 0, l2 = stores[i].length; j < l2; j++) {
+
+//         // Accessing each elements of inner-array
+//         console.log( stores[i][4] ); 
+//     }
+// };
+
+// This loop is for outer array
+for (var i = 0, l1 = stores.length; i < l1; i++) {
+
+    // This loop is for inner-arrays
+    for (var j = 0, l2 = stores[i].length; j < l2; j++) {
+	if(stores[i][2] === "CA"){
+	console.log( stores[i][1] ); //logs the name of the store
+	}
+   
+ }
+};
+
+let occurrences = [];
+for (let i = 0, j = stores.length; i < j; i++) {
+   occurrences[stores[i][1]] = (occurrences[stores[i][1]] || 0) + 1; 
+};
+console.log(occurrences['Target']);
+console.log("There are " + occurrences['Target'] + " Target stores in total.");
+console.log("There are " + occurrences['Appliance Direct'] + " Appliance Direct stores in total.");
+console.log("There are " + occurrences['K-Mart'] + " K-Mart stores in total.");
+console.log("There are " + occurrences['Circuit City'] + " Circuit City stores in total.");
+console.log("There are " + occurrences['Best Buy'] + " Best Buy stores in total.");

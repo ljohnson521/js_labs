@@ -14,3 +14,42 @@
  * find both ways!
  *
  */
+
+//  for(
+//     let i = 0;
+//     i < 5000;
+//     i = i + 3;
+// ){
+    
+//     console.log(i);
+// }
+
+// for(
+//     let i = 5;
+//     i < 1000;
+//     i = i + 5
+// ){
+//     console.log(i);
+
+// for(
+//     let i = -100;
+//     i < 100;
+//     i++
+// ){
+//     console.log(i);
+// }
+// let learnSomething = 0;
+// let loseSomething = 0;
+
+// for(
+//     let i = 0;
+//     i < 5000;
+//     i++
+// ){
+//     if (i % 2 == 0){
+//         learnSomething += 3
+//     }else{
+//         learnSomething--
+//     }
+//     console.log(learnSomething)
+// }

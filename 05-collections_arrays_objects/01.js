@@ -18,7 +18,73 @@
  *    function to log the sum of the two arrays of odd and even numbers.
  */
 
- let myStuff = ["chair", "desk", "lamp"]
- let myShelf = [
-     ["tools", "glasses", "coffee machine"], ["keys", "key grinder", "water bottle"]
- ]
+ function getRandomNumber(){
+    return Math.floor((Math.random() * 100) + 1);
+};
+
+//  let myStuff = [
+//      "chair", "desk", "lamp", "keys", "key grinder", "keyboard"
+//  ];
+//  let myShelf = [
+//     "glasses", "coffee machine", "bowls", "water bottle", "window cleaner", "sugar"
+//  ];
+//  let myDrawer = [
+//     "forks", "knives", "spoons", "can opener", "scisors", "ice cream scooper"
+//  ];
+//  let drawer2 = myStuff.slice(0, 5)
+//  let newShelf = myShelf.slice(0, 5)
+//  let newStuff = myDrawer.slice(0, 5)
+//  console.log(drawer2[2])
+//  console.log(newShelf[1])
+//  console.log(newStuff[0])
+//  console.log(drawer2[0])
+//  console.log(newShelf[3]);
+
+let newArray = [];
+
+for (i = 1; i <= 100; i++) {
+    newArray.push(i)
+}
+console.log(newArray);
+
+let sum = 0;
+for (let i = 0; i < newArray.length; i++){
+    sum += newArray[i]
+}
+console.log(sum);
+
+let arrayValue = [];
+for(
+   let i = 0;
+    i < 100;
+    i++
+){
+    let firstNum = getRandomNumber();
+    arrayValue.push(firstNum);
+};
+console.log(arrayValue);
+
+
+let oddArray1 =[];
+let evenArray1 = [];
+
+for(let i = 0; i < arrayValue.length; i++){
+    let oddArray1 = arrayValue.filter(Number => Number%2); 
+    let evenArray1 = arrayValue.filter( Number => !(Number%2) );
+    console.log(evenArray1);
+    console.log(oddArray1);
+    break;
+
+};
+
+function amountTotal(){
+    let total = 0;
+    for (i = 0; i < oddArray1.length; i++){
+         total += oddarray1[i];
+    }
+    return total;
+
+}
+
+
+ 
